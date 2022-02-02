@@ -1,0 +1,24 @@
+{
+  "name": "codewars",
+  "version": "1.0.0",
+  "description": "tasks from Codewars",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx mocha --config .mocharc.js",
+    "test_run": "mocha index.js",
+    "test:code": "mocha code-wars-tasks/cata7/tests/1-1.tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/arybkovskyi/codeWars.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arybkovskyi/codeWars/issues"
+  },
+  "dependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^9.2.0"
+  }
+}
