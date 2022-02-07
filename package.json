@@ -6,7 +6,7 @@
   "scripts": {
     "test": "npx mocha --config .mocharc.js",
     "test_run": "mocha index.js",
-    "test:code": "mocha code-wars-tasks/cata7/tests/1-1.tests.js"
+    "test:code": "mocha code-wars-tasks/cata7/specs/1-1.spec.js"
   },
   "repository": {
     "type": "git",

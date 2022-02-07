@@ -1,4 +1,4 @@
-//DISCOVER ORIGINAL PRICE (tests)
+//DISCOVER ORIGINAL PRICE (specs)
 const expect = require('chai').expect
 const discoverOriginalPrice = require ('../task/1-1.js');
 
@@ -12,7 +12,7 @@ describe('DISCOVER ORIGINAL PRICE',()=>{
     it('Original price of 21',()=>{
         expect(discoverOriginalPrice(21,44)).to.equal(37.5)
     })
-    it.only('Original price of 1',()=>{
+    it('Original price of 1',()=>{
         expect(discoverOriginalPrice(1,50)).to.equal(2)
     })
 })
